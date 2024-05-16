@@ -75,12 +75,15 @@
 .fourth{
     display: flex;
     margin: 100px 100px;
-    padding: 50px;
+    padding: 50px 50px 10px 10px;
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #3882f6;
     color: #E5E7EB;
+    border-radius: 7px;
+    height: 150px;
+    width: 950px;
 }
 
 .fourth.sign-up{
@@ -98,10 +101,20 @@
     font-weight: bold;
     align-self: flex-end;
     margin-right: 150px;
+    margin-bottom: 150px;
 }
 
 .action{font-size: 20px;
     font-weight: bold;
+    margin-bottom: -15px;
+    margin-right: 40px;
+    padding-left: 50px;
+
+}
+
+.sign {
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .top-button {
@@ -110,15 +123,6 @@
 
 }
 
-
-.sign {
-    padding-top: 5px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 80px;
-    align-items: center;
-    margin-top: 10px;
-}
 
 .logo.secondary-text {display: flex;
     justify-content: center;
